@@ -64,17 +64,17 @@ function draw(){
     box14.display();
     box15.display();
     fill("yellow");
-    text("PRESS SPACE TO REATTACH THE BALL :)",200,100);
+    //text("PRESS SPACE TO REATTACH THE BALL :)",200,100);
     sling.display(); 
 
      
 
 }
-function keyPressed(){
+//function keyPressed(){
     if(keyCode === 32){
        sling.reattach(ball.body);
     }
-    }
+    
     
  
 function mouseDragged(){
